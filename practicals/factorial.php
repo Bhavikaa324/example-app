@@ -24,5 +24,5 @@ if ($number >= 0) {
 } else {
     echo "Factorial is not defined for negative numbers.";
 }
-?>
+?
 
