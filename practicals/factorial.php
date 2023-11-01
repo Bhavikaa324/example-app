@@ -1,5 +1,5 @@
 <?php
-// Function to calculate the factorial of a number
+// Function to calculate the factorial 
 function factorial($n) {
     if ($n < 0) {
         return "Factorial is not defined for negative numbers.";
@@ -18,7 +18,8 @@ function factorial($n) {
 $number = 5; // Change this to the desired number
 
 if ($number >= 0) {
-    $fact = factorial($number);
+	$fact = factorial($number);
+	// Factorial of a number
     echo "Factorial of $number is $fact";
 } else {
     echo "Factorial is not defined for negative numbers.";
