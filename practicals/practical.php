@@ -8,6 +8,10 @@ class Practical {
 
     // Static function to add two numbers and return the sum
     public static function add($num1, $num2) {
+	    if(!is_int($num1) || !is_int($num2))
+	    {
+		    throw new \InvalidArgumentException("Arguments must be integers");
+	    }
         return $num1 + $num2;
     }
 
